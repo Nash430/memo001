@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.FullStyle {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 7% 85% 8%;
+  text-align: center;
+  // background-image: url(../public/images/new_bg.png);
+}
