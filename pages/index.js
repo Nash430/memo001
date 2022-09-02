@@ -31,7 +31,7 @@ class Home extends React.Component {
         <Layout>
           <div style={{ display: "grid", gridTemplateRows: "90% 10%" }}>
             <div className="indexFull">
-              <Row gutter={[8, 16]}>
+              {/* <Row gutter={[8, 16]}>
                 <Col className="background" span={6}>
                   <Button  type="primary" value={1} onClick={this.SelectNum} >
                     1
@@ -92,7 +92,7 @@ class Home extends React.Component {
                     12
                   </Button>
                 </Col>
-              </Row>
+              </Row> */}
             </div>
             <p> 請選擇要抽幾張牌 </p>
           </div>
