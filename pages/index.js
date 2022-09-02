@@ -26,7 +26,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{ width: '100vh' }}>
         <Logo />
         <Layout>
           <div style={{ display: "grid", gridTemplateRows: "90% 10%" }}>
