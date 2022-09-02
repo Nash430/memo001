@@ -21,9 +21,9 @@ class Home extends React.Component {
 
   render() {
     return (
-      // <div className='indexFUll'>
+      <div>
         <Layout>123</Layout>
-      // {/* </div> */}
+       </div>
     );
   }
 }
