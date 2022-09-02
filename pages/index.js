@@ -21,10 +21,8 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className={styles.container}>
-        <Layout>
-          123
-        </Layout>
+      <div>
+        <Layout>123</Layout>
       </div>
     );
   }
