@@ -21,5 +21,27 @@ a {
   display: grid;
   grid-template-rows: 7% 85% 8%;
   text-align: center;
-  // background-image: url(../public/images/new_bg.png);
+}
+
+.headerStyle {
+  cursor: pointer;
+  background-color: #f3ede5;
+  box-shadow: 1px 1px 10px #e9e2d8;
+  h2 {
+    transform: translate(0, -25%);
+  }
+}
+
+.FooterStyle {
+  background-color: #f3ede5;
+  box-shadow: 1px 1px 10px #e9e2d8;
+  .iconImg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    img {
+      margin: 5px;
+    }
+  }
 }
