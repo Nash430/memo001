@@ -40,11 +40,11 @@ a {
       background-color: #f3ede5;
       box-shadow: 1px 1px 10px #e9e2d8;
       align-items: center;
-
+      width: 100%;
+      grid-template-columns: 100%;
       .iconImg {
         height: 100%;
         display: flex;
-        width: 100%;
         justify-content: center;
         // align-items: center;
         gap: 10px;
