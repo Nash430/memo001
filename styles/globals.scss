@@ -27,6 +27,7 @@ a {
     grid-template-rows: 7% 85% 8%;
     text-align: center;
     grid-template-columns: 100%;
+    // align-items: center;
     .headerStyle {
       cursor: pointer;
       background-color: #f3ede5;
@@ -38,10 +39,14 @@ a {
     .FooterStyle {
       background-color: #f3ede5;
       box-shadow: 1px 1px 10px #e9e2d8;
+      align-items: center;
+
       .iconImg {
         height: 100%;
         display: flex;
+        width: 100%;
         justify-content: center;
+        // align-items: center;
         gap: 10px;
         img {
           margin: 5px;
