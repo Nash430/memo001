@@ -1,10 +1,12 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <div className="FooterStyle">
       <div className="iconImg">
-        <img src="./images/icon_YT.png" />
+        <img src="./images/icon_YT.png"  />
         <img src="./images/icon_podcast.png" />
         <img src="./images/icon_IG.png" />
         <img src="./images/icon_facebook.png" />
