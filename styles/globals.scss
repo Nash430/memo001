@@ -37,7 +37,8 @@ a {
     .headerStyle {
       cursor: pointer;
       background-color: #f3ede5;
-      box-shadow: 1px 1px 10px #e9e2d8;
+      // box-shadow: 1px 1px 10px #e9e2d8;
+      box-shadow: 0px 20px 10px -12px #e9e2d8;;
       z-index: 9;
       h2 {
         transform: translate(0, -25%);
@@ -45,7 +46,8 @@ a {
     }
     .FooterStyle {
       background-color: #f3ede5;
-      box-shadow: 1px 1px 10px #e9e2d8;
+      // box-shadow: 1px 1px 10px #e9e2d8;
+      box-shadow: 0px -20px 10px -15px  #e9e2d8;;
       align-items: center;
       // width: 100%;
       grid-template-columns: 100%;
