@@ -29,11 +29,15 @@ a {
     grid-template-rows: 7% 85% 8%;
     text-align: center;
     grid-template-columns: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f3ede5;
     // align-items: center;
     .headerStyle {
       cursor: pointer;
       background-color: #f3ede5;
       box-shadow: 1px 1px 10px #e9e2d8;
+      z-index: 9;
       h2 {
         transform: translate(0, -25%);
       }

@@ -22,7 +22,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Layout>123</Layout>
+        <Layout><div style={{ backgroundColor: 'white' }}>123</div></Layout>
       </div> 
     );
   }
